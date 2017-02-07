@@ -8,7 +8,6 @@ namespace RecapNedarvning
 {
     public interface IElMotor
     {
-
         int LadeTid();
     }
 }
