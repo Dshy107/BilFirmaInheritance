@@ -39,9 +39,9 @@ namespace RecapNedarvning
         /// grøn afgift for dieselbil
         /// </summary>
         /// <returns></returns>
-        public override int GrønAfgift()
+        public override int HalvÅrligEjerAfgift()
         {
-            return base.GrønAfgift() + 1000;
+            return 1000;
         }
 
         /// <summary>

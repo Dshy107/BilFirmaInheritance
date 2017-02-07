@@ -76,10 +76,10 @@ namespace RecapNedarvning
 
         }
 
-        public virtual int GrønAfgift()
-        {
-            return 2000;
-        }
+        public abstract int HalvÅrligEjerAfgift();
+        //{
+        //    return 1000;
+        //}
 
 //Personbiler  105 % af værdien op til 81.700 kr.og 180 % af resten
 //Motorcykler  105 % af værdien mellem 9.200-25.800 kr.og 180 % af resten

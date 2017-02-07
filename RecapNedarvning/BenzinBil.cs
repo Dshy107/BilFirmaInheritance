@@ -35,9 +35,9 @@ namespace RecapNedarvning
             return Tank*KmPrLiter;
         }
 
-        public override int GrønAfgift()
+        public override int HalvÅrligEjerAfgift()
         {
-            return base.GrønAfgift()-500;
+            return 500;
         }
     }
 }
