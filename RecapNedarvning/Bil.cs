@@ -74,6 +74,15 @@ namespace RecapNedarvning
 
         }
 
+        /// <summary>
+        /// giver bilens totalpris dvs. pris inkl afgift
+        /// </summary>
+        /// <returns></returns>
+        public int TotalPris()
+        {
+            return this.BilPrisExAfgift + this.Registreringsafgift();
+        }
+
         public abstract int HalvÅrligEjerAfgift();
 
 //Personbiler  105 % af værdien op til 81.700 kr.og 180 % af resten
