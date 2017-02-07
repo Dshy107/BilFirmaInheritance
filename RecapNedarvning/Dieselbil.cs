@@ -52,5 +52,11 @@ namespace RecapNedarvning
         {
             return Tank*KmPrLiter;
         }
+
+        public override string ToString()
+        {
+            return $"{this.BilMærke} - {this.RegisteringsnrNr} - pris ex. afgift {this.BilPrisExAfgift} - Totalpris {this.TotalPris()}- km/l:{this.KmPrLiter} -rækkevidde: {this.RækkeVidde()} ";
+
+        }
     }
 }

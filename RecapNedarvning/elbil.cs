@@ -55,5 +55,12 @@ namespace RecapNedarvning
         {
             return 5;
         }
+
+        public override string ToString()
+        {
+            return $"{this.BilMærke} - {this.RegisteringsnrNr} - pris ex. afgift {this.BilPrisExAfgift} - Totalpris {this.TotalPris()}- KWh:{this.KmPrKW} -rækkevidde: {this.RækkeVidde()} ";
+
+        }
+
     }
 }
