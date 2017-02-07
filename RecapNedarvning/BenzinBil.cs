@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace RecapNedarvning
 {
+    /// <summary>
+    /// Benzinbil
+    /// </summary>
     public class BenzinBil : Bil
     {
 
@@ -35,6 +38,10 @@ namespace RecapNedarvning
             return Tank*KmPrLiter;
         }
 
+        /// <summary>
+        /// Halvårlig ejerafgift for Benzinbil
+        /// </summary>
+        /// <returns></returns>
         public override int HalvÅrligEjerAfgift()
         {
             return 500;

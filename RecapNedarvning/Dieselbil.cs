@@ -36,7 +36,7 @@ namespace RecapNedarvning
         }
 
         /// <summary>
-        /// grøn afgift for dieselbil
+        /// Halvårlig ejerafgift for dieselbil
         /// </summary>
         /// <returns></returns>
         public override int HalvÅrligEjerAfgift()
