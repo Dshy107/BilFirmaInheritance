@@ -33,7 +33,7 @@ namespace RecapNedarvning
         /// grønafgift for ElBil
         /// </summary>
         /// <returns></returns>
-        public override int GrønAfgift()
+        public override int HalvÅrligEjerAfgift()
         {
             return 0;
         }
