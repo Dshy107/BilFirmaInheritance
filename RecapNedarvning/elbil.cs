@@ -13,8 +13,8 @@ namespace RecapNedarvning
         public int BatteriKapacitet { get; set; }
         public int KmPrKW { get; set; }
 
-        public ElBil(int pris, int købsår, int kmPrKw, int battteriKapacitet)
-            :base(pris,købsår)
+        public ElBil(int pris, int købsår, string mærke, string regnr, int kmPrKw, int battteriKapacitet)
+            : base(pris, købsår, mærke, regnr)
         {
             this.KmPrKW = kmPrKw;
             this.BatteriKapacitet = battteriKapacitet;

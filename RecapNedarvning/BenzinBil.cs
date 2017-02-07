@@ -22,8 +22,8 @@ namespace RecapNedarvning
         /// <param name="pris"></param>
         /// <param name="købsår"></param>
         /// <param name="kmPrL"></param>
-        public BenzinBil(int pris, int købsår,int tank, int kmLiter)
-            :base(pris,købsår)
+        public BenzinBil(int pris, int købsår, string mærke, string regnr, int kmLiter, int tank)
+            :base(pris, købsår, mærke, regnr)
         {
             this.KmPrLiter = kmLiter;
             this.Tank = tank;

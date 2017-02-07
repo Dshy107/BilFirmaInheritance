@@ -34,23 +34,23 @@ namespace RecapNedarvning
             //elBilListe.Add(new ElBil(200000, 2016, 16, 20));
 
             var bilListe = new List<Bil>();
-            bilListe.Add(new Dieselbil(5000, 2014, 20, 30));
-            bilListe.Add(new Dieselbil(15000, 2015, 28, 40));
-            bilListe.Add(new Dieselbil(280000, 2015, 17, 50));
-            bilListe.Add(new Dieselbil(35000, 2016, 12, 70, false));
-            bilListe.Add(new Dieselbil(81400, 2012, 17, 60, false));
+            //bilListe.Add(new Dieselbil(5000, 2014, 20, 30));
+            //bilListe.Add(new Dieselbil(15000, 2015, 28, 40));
+            //bilListe.Add(new Dieselbil(280000, 2015, 17, 50));
+            //bilListe.Add(new Dieselbil(35000, 2016, 12, 70, false));
+            //bilListe.Add(new Dieselbil(81400, 2012, 17, 60, false));
 
-            bilListe.Add(new BenzinBil(30000, 2016, 15, 40));
-            bilListe.Add(new BenzinBil(150000, 2014, 17, 30));
-            bilListe.Add(new BenzinBil(39000, 2015, 12, 80));
-            bilListe.Add(new BenzinBil(400000, 2016, 11, 50));
-            bilListe.Add(new BenzinBil(120000, 2016, 48, 25));
+            //bilListe.Add(new BenzinBil(30000, 2016, 15, 40));
+            //bilListe.Add(new BenzinBil(150000, 2014, 17, 30));
+            //bilListe.Add(new BenzinBil(39000, 2015, 12, 80));
+            //bilListe.Add(new BenzinBil(400000, 2016, 11, 50));
+            //bilListe.Add(new BenzinBil(120000, 2016, 48, 25));
 
-            bilListe.Add(new ElBil(200000, 2015, 10, 50));
-            bilListe.Add(new ElBil(200000, 2015, 13, 50));
-            bilListe.Add(new ElBil(200000, 2015, 9, 30));
-            bilListe.Add(new ElBil(200000, 2016, 12, 30));
-            bilListe.Add(new ElBil(200000, 2016, 16, 20));
+            //bilListe.Add(new ElBil(200000, 2015, 10, 50));
+            //bilListe.Add(new ElBil(200000, 2015, 13, 50));
+            //bilListe.Add(new ElBil(200000, 2015, 9, 30));
+            //bilListe.Add(new ElBil(200000, 2016, 12, 30));
+            //bilListe.Add(new ElBil(200000, 2016, 16, 20));
 
 
             int tæller =0;

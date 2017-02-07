@@ -10,16 +10,20 @@ namespace RecapNedarvning
 {
     public abstract class Bil
     {
-        private int Pris { get; set; }
+        public int BilPrisExAfgift { get; private set; }
         public int KøbsÅr { get; private set; }
         public string BilMærke { get; set; }
-        public string RegNr { get; set; }
-      
+        public string RegisteringsnrNr { get; set; }
+        //public int KmPrLiter { get; set; }
 
-        protected Bil(int pris, int købsår)
+
+        protected Bil(int pris, int købsår, string mærke, string regnr)
         {
-            this.Pris = pris;
+            this.BilPrisExAfgift = pris;
             this.KøbsÅr = købsår;
+            this.BilMærke = mærke;
+            this.RegisteringsnrNr = regnr;
+            //this.KmPrLiter = KmPrL;
         }
 
         /// <summary>
@@ -57,17 +61,17 @@ namespace RecapNedarvning
         /// <returns></returns>
         private int beregnAfgift(int minimumafgift)
         {
-            if (this.Pris <= 0)
+            if (this.BilPrisExAfgift <= 0)
                 return 0;
 
-            if (this.Pris <= minimumafgift)
-                return Pris*105/100;
+            if (this.BilPrisExAfgift <= minimumafgift)
+                return BilPrisExAfgift*105/100;
 
             int pct105 = 0;
             int pct180 = 0;
 
             pct105 = minimumafgift;
-            pct180 = (this.Pris - minimumafgift)*180/100;
+            pct180 = (this.BilPrisExAfgift - minimumafgift)*180/100;
             return pct105 + pct180;
 
         }

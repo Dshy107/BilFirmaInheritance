@@ -13,23 +13,22 @@ namespace RecapNedarvning
     /// </summary>
     public class Dieselbil : Bil
     {
-
         public bool PartikelFilter { get; set; }
-        public int KmPrLiter { get; set; }
+        //public int KmPrLiter { get; set; }
 
         /// <summary>
         /// angiver tanken i liter
         /// </summary>
         public int Tank { get; set; }
+        public int KmPrLiter { get; private set; }
 
-        public Dieselbil(int pris, int købsår, int kmLiter, int tank)
-           :this(pris, købsår, kmLiter, tank, true)
+        public Dieselbil(int pris, int købsår, string mærke, string regnr, int kmLiter, int tank)
+           :this(pris, købsår, mærke, regnr, kmLiter, tank, true)
         {
         }
 
-
-        public Dieselbil(int pris,int købsår, int kmLiter, int tank, bool partikelFilter)
-            :base(pris,købsår)
+        public Dieselbil(int pris,int købsår,string mærke,string regnr, int kmLiter, int tank, bool partikelFilter)
+            :base(pris,købsår,mærke,regnr)
         {
             this.PartikelFilter = partikelFilter;
             this.Tank = tank;
