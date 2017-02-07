@@ -41,7 +41,12 @@ namespace RecapNedarvning
         /// <returns></returns>
         public override int HalvÅrligEjerAfgift()
         {
-            return 1000;
+            if (this.KmPrLiter < 15)
+                return 2000;
+            else if (this.KmPrLiter > 25)
+                return 350;
+            else
+               return 1000;
         }
 
         /// <summary>
