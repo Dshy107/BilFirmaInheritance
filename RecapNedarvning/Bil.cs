@@ -49,8 +49,6 @@ namespace RecapNedarvning
             {
                return beregnAfgift(pct105afgift2016);
             }
-
-            return 0;
         }
 
         /// <summary>
@@ -77,13 +75,7 @@ namespace RecapNedarvning
         }
 
         public abstract int HalvÅrligEjerAfgift();
-        //{
-        //    return 1000;
-        //}
 
 //Personbiler  105 % af værdien op til 81.700 kr.og 180 % af resten
-//Motorcykler  105 % af værdien mellem 9.200-25.800 kr.og 180 % af resten
-
-
     }
 }
