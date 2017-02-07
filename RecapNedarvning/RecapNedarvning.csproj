@@ -45,6 +45,7 @@
     <Compile Include="BenzinBil.cs" />
     <Compile Include="Dieselbil.cs" />
     <Compile Include="ElBil.cs" />
+    <Compile Include="IBil.cs" />
     <Compile Include="IElMotor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
