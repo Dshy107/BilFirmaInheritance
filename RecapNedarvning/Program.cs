@@ -90,7 +90,7 @@ namespace RecapNedarvning
 
                 Console.WriteLine("Rækkevidden er : "+ bil.RækkeVidde());
                 Console.WriteLine("Registreringsafgift : " + bil.Registreringsafgift());
-                Console.WriteLine("Grønafgift: " + bil.GrønAfgift());
+                Console.WriteLine("HalvÅrligEjerAfgift: " + bil.HalvÅrligEjerAfgift());
                 Console.WriteLine("--------------");
 
             }
