@@ -15,7 +15,7 @@ namespace RecapNedarvning
         /// <summary>
         /// angiver tanken i liter
         /// </summary>
-        public int Tank { get; private set; }
+        public int Tank { get; prvate set; }
         public int KmPrLiter { get; set; }
 
 
