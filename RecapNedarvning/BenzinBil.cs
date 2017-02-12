@@ -17,7 +17,7 @@ namespace RecapNedarvning
         /// </summary>
         public int Tank { get; private set; }
         public int KmPrLiter { get; set; }
-
+           
 
         /// <summary>
         /// konstruktor for Benzinbil
