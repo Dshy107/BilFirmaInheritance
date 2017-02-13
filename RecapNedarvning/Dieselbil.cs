@@ -19,7 +19,7 @@ namespace RecapNedarvning
         /// <summary>
         /// angiver tanken i liter
         /// </summary>
-        public int Tank { get; set; }
+        public int Tank { get; prive  set; }
         public int KmPrLiter { get; private set; }
 
         public Dieselbil(int pris, int købsår, string mærke, string regnr, int kmLiter, int tank)
