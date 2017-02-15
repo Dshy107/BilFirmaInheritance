@@ -57,7 +57,7 @@ namespace RecapNedarvning
         /// <param name="minimumafgift"> lav regafgift</param>
         /// <param name="pris">prisen på bilen uden regafgift</param>
         /// <returns></returns>
-        private int beregnAfgift(int minimumafgift)
+        public int beregnAfgift(int minimumafgift)
         {
             if (this.BilPrisExAfgift <= 0)
                 return 0;
